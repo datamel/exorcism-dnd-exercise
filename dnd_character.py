@@ -11,7 +11,7 @@ class Character:
     def ability(self):
         import random
         #generate list of 4 random dice numbers
-        randnums = [random.randint(1,7) for i in range(4)]
+        randnums = [random.randint(1,6) for i in range(4)]
         #find the min of those 4 numbers
         minrand = int(min(randnums))
         #sum the dice and subtract the min value to give sum of top 3 dice
